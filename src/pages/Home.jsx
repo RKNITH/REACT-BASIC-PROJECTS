@@ -6,6 +6,7 @@ import ImageSlider from '../components/ImageSlider.jsx'
 import LoadmoreCard from '../components/LoadmoreCard.jsx'
 import TreeView from '../components/TreeView.jsx'
 import QrCode from '../components/QrCode.jsx'
+import LighDark from '../components/LighDark.jsx'
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <LoadmoreCard />
             <TreeView />
             <QrCode />
+            <LighDark />
         </div>
     )
 }
